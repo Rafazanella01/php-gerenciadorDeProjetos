@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+
+    <script type="application/javascript" src="../public/javascript/script.js"></script>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/sign-up" method="post" onsubmit="validateSignUpFields(event);">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="confirm_password">Confirm Password</label>
+        <br>
+        <input type="password" name="confirm_password" id="confirm_password">
+        <br>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+    <br>
+</body>
+</html>
